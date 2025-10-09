@@ -1,0 +1,57 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.log
+*.out
+*.swp
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.crt
+*.key
+
+# System & editor clutter
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.sublime-workspace
+.vscode/
+
+
+# Virtual environments
+.venv/
+.env/
+.Python
+
+# OS-specific
+ehthumbs.db
+desktop.ini
+
+# GitHub or markdown cache
+*.md~
+node_modules/
+
+# Red team tool output
+loot/
+recon/
+scans/
+*.nmap
+*.pcap
+
+# Lab/VM-related
+*.iso
+*.ova
+*.vdi
+*.qcow2
+
+# Backup & history
+*~
+*.old
+*.backup
+
+# Misc
+secrets.txt
+notes-private.md

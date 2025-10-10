@@ -1,6 +1,6 @@
-# Ptunnel-ng build - glibc 2.31 + openssl 1.1
+# Ptunnel-ng v1.43 - glibc 2.31 + openssl 1.1
 
-Tested on a Ubuntu server running glibc 2.32. 
+Tested on a Ubuntu server running glibc 2.32.
 
 ## Built in a container that uses glibc 2.31 (Ubuntu 20.04 / Debian 11)
 
@@ -22,4 +22,3 @@ docker run --rm -it -v ~/ptunnel_build:/workdir -w /workdir ubuntu:20.04 /bin/ba
 - Installs dev packages including `libssl-dev` that match OpenSSL 1.1
 - Runs `autogen.sh` / `configure` / `make`.
 - Copies the binary to `~/ptunnel_build/out/ptunnel-ng`
-

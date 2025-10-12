@@ -2,7 +2,7 @@
 
 Kerbrute is pure Go, so you can compile it **without** glibc by disabling cgo and using Go’s pure resolvers. That gives you a single static-ish binary that runs fine on systems with glibc 2.32 (and even older).
 
-### Linux/amd64
+## Linux/amd64
 
 ```bash
 # grab the source

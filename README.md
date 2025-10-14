@@ -26,14 +26,6 @@ Concise reports for Hack The Box, VulnHub, and other lab machines. Each entry co
 
 ---
 
-### Pentest notes
-
-Rapid‑reference material for enumeration, reverse shells, SQLi, privilege escalation, and common pentest tasks.
-
-* This section is continuously evolving and will be reorganized over time.
-
----
-
 ### Scripts
 
 Pragmatic scripts and small utilities created or adapted for day‑to‑day ops and lab work.

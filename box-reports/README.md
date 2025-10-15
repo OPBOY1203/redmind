@@ -1,6 +1,6 @@
 # Box Reports
 
-This directory contains technical summaries from individual machine engagements and assessment challenges. 
+This directory contains some technical summaries from individual machine engagements and assessment challenges. 
 
 Each report is derived from my detailed notes and full engagement documentation but focuses on key technical points, methodologies, and outcomes.
 

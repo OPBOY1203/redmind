@@ -3,6 +3,7 @@
 **Target:** `DC01.fluffy.htb`  
 **Target IPs seen in logs:** `10.10.11.69`
 **Attacker IP:** `10.10.14.2`
+Date: 2025-10-10
 
 ---
 

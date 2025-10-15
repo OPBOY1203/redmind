@@ -1,6 +1,12 @@
+# Binaries
+
+Binaries in this section were built out of necessity while doing engagements on older systems. I've left them here, and will be dumping more as I go. Build instruction will be provided (my methods).
+
+Newer-built glibc binaries aren’t reliably backward-compatible. However, they **are** more reliably forward-compatible.
+
 ## Compiling Methods for Older Systems
 
-Newer-built glibc binaries aren’t reliably backward-compatible. However, they **are** more reliably forward-compatible. 
+These are some methods you can use/try to build a compatible binaries.
 
 ## Find libc Version
 
@@ -15,7 +21,7 @@ objdump -p ./bin/app-glibc217 | grep NEEDED
 strip ./bin/app-* || true
 ```
 
-## Smaller binaries
+## Shrink binaries
 
 ```bash
 # Strip symbols (smaller binaries)

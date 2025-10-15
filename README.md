@@ -1,56 +1,18 @@
-# RedMind
+# RedMind – Offensive Operations Workbench
 
-A living repository for offensive security labs, field notes, system scripts, and practical cybersecurity work. This repo documents both technical development and red‑team activity, a personal portfolio and tactical log.
+RedMind exists because most note repos turn into digital landfills. I trimmed the fat. What’s left here is what actually matters to me: working binaries that shouldn’t exist but do, write-ups that reflect real decision-making under pressure, curated runbooks for techniques that I actually want at hand during an engagement, and some curated box reports.
 
-I’m a former infrastructure technician now focused on offensive security, with strong experience in Linux systems, endpoint hardening, scripting, and adversarial methodology.
+This isn’t a CTF trophy shelf. It’s a growing record of adaptability, break-fix mindset and forward-compatibility obsession. If something broke because it was built for glibc 2.39 and I only had 2.31, I rebuilt it, documented how, and left a breadcrumb for anyone else stuck in dependency hell. That matters more to me than just “getting a shell”.
 
----
+## What’s Inside
+- **Binaries** – Legacy-compatible, rebuilt tools for old systems. If something refused to run on a 2012 box, I'll make it behave.
+- **Box Reports** – HTB and lab machines. Each entry contains enumeration notes, exploit chains, privilege escalation, and cleanup steps.
+- **Runbooks** – Condensed tactical procedures for things I want muscle memory on (Shadow Creds, ADCS relay, pivot chains, etc). These are field notes, not tutorials.
+- **Scripts** – Small tools and helpers I wrote myself. Imperfect, but mine. Everything here actually came from problem-solving, and necessity.
+- **Write-Ups** – Long-form pieces where I break something down cleanly, usually after I’ve had enough distance to explain it properly.
 
-## What’s inside
+## Why This Repo Exists
+Because I wanted a place that reflects how I operate: direct, adaptable and not allergic to dirty work. I value backwards compatibility, controlled chaos, and having working artifacts I can drop into a target without praying for matching library versions. I also value transparency – if I pivoted through a DMZ box using Ligolo, I want the sequence written exactly how it happened, not cleaned up into some corporate PDF.
 
-### Binaries
+If someone stumbles across this repo and finds something useful, great. But it exists first and foremost as my offensive bench – a kit that evolves as I do.
 
-A curated collection of binaries I’ve compiled to support older systems encountered during engagements where modern releases were incompatible or unavailable.
-
-* Binaries are adjusted to work with older **glibc** and **OpenSSL** versions, or otherwise documented.
-* Build instructions are included for anyone who needs to compile updated or alternate builds.
-
----
-
-### Box reports
-
-Concise reports for Hack The Box, VulnHub, and other lab machines. Each entry contains enumeration notes, exploit chains, privilege escalation, and cleanup steps.
-
-* Intended as quick, point‑forward documentation rather than full formal reports.
-* Focused on methodology, exact commands used, and key takeaways from each engagement.
-
----
-
-### Scripts
-
-Pragmatic scripts and small utilities created or adapted for day‑to‑day ops and lab work.
-
-* Simple, opinionated tools for networking, recon automation, Git hygiene, and logging.
-* Pull requests welcome if they keep the same lightweight, practical approach.
-
----
-
-### Write‑ups
-
-Short technical walkthroughs that cover the essentials and show the path to a solution; intentionally brief and actionable.
-
----
-
-## Current focus
-
-* Red‑team workflows and exploit development
-* Privilege escalation on Linux & Windows
-* Python and Bash for automation and recon
-* OSCP‑aligned methodology
-* HTB Academy — Penetration Tester pathway
-
----
-
-> [!IMPORTANT]
->
-> Some materials are stored privately or offline. Message for access or context.

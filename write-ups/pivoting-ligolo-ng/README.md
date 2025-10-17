@@ -1,4 +1,4 @@
-# HTB Academy: [Pivoting, Tunneling, and Port Forwarding](https://academy.hackthebox.com/module/details/158) – Skills Assessment
+# Pivoting, Tunneling & Port Forwarding – Practical Operator Notes from HTB Academy
 
 ## A hands‑on how‑to and post‑action report for multi‑hop tunneling and manual routing
 
@@ -29,7 +29,7 @@ The assessment was designed for students to test several pivoting techniques lea
 
 My path looked like this:
 
-![pivot_dark](./assets/pivot_dark.png)
+![map](./assets/map.png)
 
 By leveraging [Ligolo-ng’s](https://github.com/nicocha30/ligolo-ng) proxy/agent model, I built a stable SOCKS-compatible route into the target subnet without relying on external tunneling layers. I handled all routing manually, which meant I always knew exactly where traffic was flowing.
 

@@ -1,7 +1,8 @@
 ---
 title: "Shadow Credentials → PKINIT TGT → User Shell"
-category: runbook
 tags: [active-directory, shadow-creds, pywhisker, pkinit, kerberos, evil-winrm]
+author: "RedMind"
+date: 2025-10-01
 ---
 
 # Shadow Credentials → PKINIT TGT → User Shell 

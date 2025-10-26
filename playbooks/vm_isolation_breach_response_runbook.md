@@ -1,10 +1,11 @@
 ---
-title: "VM Isolation Breach (VM Escape/Side‑Channel) — Response Runbook"
-category: runbook
+title: "VM Isolation Breach (VM Escape/Side‑Channel)"
 tags: [virtualization, kvm, qemu, esxi, xen, spectre-bti, vm-escape, incident-response, hardening]
+author: "RedMind"
+date: 2025-10-01
 ---
 
-# VM Isolation Breach (VM Escape/Side‑Channel) — Response Runbook
+# VM Isolation Breach (VM Escape/Side‑Channel)
 
 **TL;DR**  
 When you suspect a guest‑to‑host escape or cross‑VM data exfiltration (e.g., via speculative‑execution or device‑emulation bugs), **freeze blast radius**, **patch hypervisor + microcode**, **enforce CPU mitigations**, and **rotate secrets** that could have been read from host/hypervisor memory. Detection is weak; favor **containment and hardening**.
@@ -124,10 +125,4 @@ cat /sys/devices/system/cpu/vulnerabilities/*
 - Document timeline, versions, and mitigations applied.  
 - Build a **playbook** for repeated checks during new disclosures (CPU, hypervisor, device emulation).  
 - Schedule purple‑team exercises targeting VM isolation assumptions (lab‑only; never on prod tenants).
-
----
-
-> [!IMPORTANT]
->
-> This runbook is a curated response pattern for suspected VM isolation breaches (escape or side‑channel leakage). Adapt per platform versions and vendor guidance.
 

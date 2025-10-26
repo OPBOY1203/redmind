@@ -1,7 +1,8 @@
 ---
 title: "Parrot Docker Lab Environment"
-category: runbook 
 tags: [lab-setup, docker, parrot, environment]
+author: "RedMind"
+date: 2025-10-01
 ---
 
 # Parrot Lab (Docker)

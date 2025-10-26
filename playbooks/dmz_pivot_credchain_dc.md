@@ -1,7 +1,8 @@
 ---
 title: "DMZ Foothold → Pivot → Credential Chain → DC Compromise"
-category: runbook
 tags: [dmz, pivoting, ligolo, credential-chain, smb, password-spraying, pass-the-hash]
+author: "RedMind"
+date: 2025-10-01
 ---
 
 # DMZ Foothold → Pivot → Credential Chain → DC Compromise

@@ -1,7 +1,8 @@
 ---
 title: "Sudo Session Hunting"
-category: runbook
 tags: [linux, forensics, privilege-escalation, sudo]
+author: "RedMind"
+date: 2025-10-01
 ---
 
 # Sudo - Session Hunting

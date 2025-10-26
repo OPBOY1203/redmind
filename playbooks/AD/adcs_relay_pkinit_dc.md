@@ -1,7 +1,8 @@
 ---
 title: "ADCS Relay → PKINIT TGT → DC Compromise"
-category: runbook
 tags: [active-directory, adcs, relay, petitpotam, printerbug, pkinit, kerberoast, impacket]
+author: "RedMind"
+date: 2025-10-01
 ---
 
 # ADCS Relay → Machine Cert → PKINIT TGT → DC Compromise

